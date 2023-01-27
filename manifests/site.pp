@@ -5,7 +5,7 @@ node default {
     owner   => 'root'
   }
 }
-node 'master.puppet.vm' {
+node 'ip-172-17-0-21.us-east-1.compute.internal' {
   include role::master_server
 }
 
